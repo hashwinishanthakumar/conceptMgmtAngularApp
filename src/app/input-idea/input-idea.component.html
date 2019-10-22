@@ -1,0 +1,15 @@
+<div class="Row">
+    <div class="col-xs-12">
+        <!--TODO : move the style to css Design it with appcard-->
+        <h3 style="color:white;background-color: olive">pin.. a Concept...NOW..</h3>
+        <label>Name</label>
+        <input type="text" class="form-control" [(ngModel)]="ideaName">
+        <label>Description</label>
+        <input type="text" class="form-control" [(ngModel)]="ideaDesc">
+        <label>Image Url</label>
+        <input type="text" class="form-control" [(ngModel)]="imgPath">
+        <br>
+        <button class="btn btn-success" (click)="createIdea()"> Add it now </button>
+        <hr>
+    </div>
+</div>
